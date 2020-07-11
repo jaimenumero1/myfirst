@@ -18,6 +18,8 @@ public class Interview {
          temp=nums[i];
         nums[i] = nums[k];
         nums[k]=temp;
+        // some comments
+
 
     }
         System.out.println(Arrays.toString(nums));
