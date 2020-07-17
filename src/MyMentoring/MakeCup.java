@@ -1,11 +1,15 @@
 package MyMentoring;
 
-public class MakeCup {
+public class MakeCup  extends UtensilsParent{
 
     public String color;
     public String material;
     public int capacity;
 
+
+    public void saySomething(){
+        System.out.println("Gulp Gulp!!!");
+    }
 
     MakeCup(String color, String material, int capacity) {
         this.color = color;

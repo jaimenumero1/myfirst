@@ -15,10 +15,9 @@ public class Interview {
 
     for(int i =0,k=len; i < nums.length/2; i++,k--){
          int temp=0;
-         temp=nums[i];
+         temp =nums[i];
         nums[i] = nums[k];
         nums[k]=temp;
-        // some comments
 
 
     }

@@ -1,6 +1,6 @@
 package MyMentoring;
 
-public class Plate {
+public class Plate extends UtensilsParent {
 
    public String material ;
     public String color;
@@ -14,6 +14,9 @@ public class Plate {
         this.color = color;
         this. size = size;
 
+    }
+    public void saySomething(){
+        System.out.println("crack!!!!!");
     }
     public void breakThePlate (){
         System.out.println("Your Plate is broken ");
