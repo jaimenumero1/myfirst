@@ -22,20 +22,20 @@ try {
     System.out.println("First step");
     System.out.println("Please Log Inn");
 
-//        String userName = JOptionPane.showInputDialog("This is your Smart Refrigerator Please Log Inn ");
-//        String passWord = JOptionPane.showInputDialog("Password");
-//
-//
-//        if (passWord != null && userName.equals("Elon Musk") && passWord.equals("hungry")) {
-//            JOptionPane.showMessageDialog(null, "Refrigerator Access Granted");
-//        } else {
-//            JOptionPane.showMessageDialog(null, "Refrigerator Access Denied");
-//            Thread.sleep(5800);
-//            System.out.println();
-//            System.err.println("Refrigerator is Locked, Please Refer to manual to unlock");
-//            System.err.println("Or after veryfing Purchase, & serial # you can download at mysmartfridge@wix.com");
-//            return;
-//        }
+        String userName = JOptionPane.showInputDialog("This is your Smart Refrigerator Please Log Inn ");
+        String passWord = JOptionPane.showInputDialog("Password");
+
+
+        if (passWord != null && userName.equals("Elon Musk") && passWord.equals("hungry")) {
+            JOptionPane.showMessageDialog(null, "Refrigerator Access Granted");
+        } else {
+            JOptionPane.showMessageDialog(null, "Refrigerator Access Denied");
+            Thread.sleep(5800);
+            System.out.println();
+            System.err.println("Refrigerator is Locked, Please Refer to manual to unlock");
+            System.err.println("Or after veryfing Purchase, & serial # you can download at mysmartfridge@wix.com");
+            return;
+        }
 
     Thread.sleep(3000);
 
