@@ -55,7 +55,10 @@ public class IntroSet {
         Set<Integer> unqueNumsLinkedTree1 = new TreeSet<>(Comparator.reverseOrder());
         unqueNumsLinkedTree1.addAll(nums);
         System.out.println("Decending Order " + unqueNumsLinkedTree1);
+        System.out.println(authors3);
 
+        SortedSet<String> authors33 = new TreeSet<>(authors3);
+        System.out.println(authors33.subSet("Chika","Rowland"));
 
     }
 }
