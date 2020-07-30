@@ -9,7 +9,7 @@ public class CSP {
         int[] a2 = {4, 1, 2, 10, 5, 20};
         int aTarget = 24;
         // closestSumPair(a1, a2, aTarget) should return {5, 20} or {3, 20}
-
+        System.out.println("Good Day Sir");
         int[] b1 = {7, 4, 1, 10};
         int[] b2 = {4, 5, 8, 7};
         int bTarget = 13;
